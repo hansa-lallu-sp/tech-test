@@ -8,6 +8,18 @@ Write a ruby script that:
 
 
 
+To run application:
+run `bundle` in your terminal
+cd to home directory ruby_app and run `ruby parser.rb webserver.log`
+
+To run tests:
+cd to home directory ruby_app and run `rspec`
+
+
+
+
+
+
 /about/2          90 visits
 /contact          89 visits
 /index            82 visits
