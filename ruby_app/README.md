@@ -9,28 +9,29 @@ Write a ruby script that:
 
 
 To run application:
-run `bundle` in your terminal
-cd to home directory ruby_app and run `ruby parser.rb webserver.log`
+
+- cd to home directory ruby_app 
+- run `bundle` in your terminal
+- run `ruby parser.rb webserver.log`
 
 To run tests:
-cd to home directory ruby_app and run `rspec`
+- cd to home directory ruby_app
+- run `rspec`
 
-
-
-
-
-
-/about/2          90 visits
-/contact          89 visits
-/index            82 visits
-/about            81 visits
-/help_page/1      80 visits
-/home             78 visits
+Output: 
+```Total page views:
+/about/2 90 visits
+/contact 89 visits
+/index 82 visits
+/about 81 visits
+/help_page/1 80 visits
+/home 78 visits
 
 Unique page views:
-/help_page/1      23 unique views
-/contact          23 unique views
-/home             23 unique views
-/index            23 unique views
-/about/2          22 unique views
-/about            21 unique views
+/index 23 unique views
+/home 23 unique views
+/contact 23 unique views
+/help_page/1 23 unique views
+/about/2 22 unique views
+/about 21 unique views
+```
